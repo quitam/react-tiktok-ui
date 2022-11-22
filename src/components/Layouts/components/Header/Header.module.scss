@@ -4,10 +4,21 @@
     box-shadow: rgb(0 0 0 / 12%) 0px 1px 1px;
     display: flex;
     justify-content: center;
+    z-index: 100;
 }
 
 .inner {
     height: 100%;
     width: var(--default-layout-width);
-    background-color: red;
+    display: flex;
+    align-items: center;
+}
+
+.logo {}
+
+.search {}
+
+.clear {}
+.loading{
+    
 }
