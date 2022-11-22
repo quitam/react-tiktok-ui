@@ -20,12 +20,14 @@ const Header = () => {
                     <button className={cx('clear')}>
                         <FontAwesomeIcon icon={faCircleXmark} />
                     </button>
-                    <FontAwesomeIcon icon={faSpinner} />
+                    <FontAwesomeIcon className={cx('loading')} icon={faSpinner} />
 
+                    <span></span>
                     <button className={cx('search-btn')}>
                         <FontAwesomeIcon icon={faMagnifyingGlass} />
                     </button>
                 </div>
+                <div className={cx('actions')}>login signup</div>
             </div>
         </header>
     );
